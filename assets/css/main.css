@@ -3226,7 +3226,7 @@ input, select, textarea {
 
 /* Wrapper */
 
-	/*#wrapper {
+	#wrapper {
 		-moz-transition: opacity 0.5s ease;
 		-webkit-transition: opacity 0.5s ease;
 		-ms-transition: opacity 0.5s ease;
@@ -3234,7 +3234,7 @@ input, select, textarea {
 		position: relative;
 		z-index: 1;
 		overflow: hidden;
-	}*/
+	}
 
 		#wrapper > .bg {
 			position: absolute;
@@ -3257,7 +3257,7 @@ input, select, textarea {
 				height: 100vh;
 			}
 
-		/*#wrapper.fade-in:before {
+		#wrapper.fade-in:before {
 			pointer-events: none;
 			-moz-transition: opacity 1s ease-in-out;
 			-webkit-transition: opacity 1s ease-in-out;
@@ -3276,7 +3276,7 @@ input, select, textarea {
 			position: fixed;
 			top: 0;
 			width: 100%;
-		}*/
+		}
 
 		body.is-preload #wrapper.fade-in:before {
 			opacity: 1;
