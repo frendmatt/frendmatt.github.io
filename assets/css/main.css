@@ -42,6 +42,10 @@ body {
 	padding: 5px;
 }
 
+span.nobr {
+	white-space: nowrap;
+}
+
 ol, ul {
 	list-style: none;
 }
@@ -3247,7 +3251,7 @@ input, select, textarea {
 			background-size: auto,								auto,														100% auto;
 			background-position: center,								center,														top center;
 			background-repeat: repeat,								no-repeat,													no-repeat;
-			background-attachment: scroll,								scroll,														scroll;
+			background-attachment: fixed,								scroll,														scroll;
 			z-index: -1;
 		}
 
@@ -3279,7 +3283,7 @@ input, select, textarea {
 		}
 
 		body.is-preload #wrapper.fade-in:before {
-			opacity: 1;
+			opacity: 0;
 		}
 
 		@media screen and (orientation: portrait) {
